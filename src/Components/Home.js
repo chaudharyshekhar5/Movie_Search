@@ -9,6 +9,7 @@ function Home() {
     <div>
     <Search/>
     <Movies/>
+    
     </div>
   )
 }

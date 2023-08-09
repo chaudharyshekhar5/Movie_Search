@@ -44,7 +44,7 @@ function Singlemovie() {
                         <p className='card-text' style={{color:"green"}}>Type :   {movie.Genre}</p>
                         <p className='card-text' style={{color:"green"}}>Rating :   {movie.imdbRating}</p>
                         <p className='card-text' style={{color:"green"}}>Country :   {movie.Country}</p>
-                        <NavLink to="/" style={{border:"2px solid violet",padding:"8px",color:"red",backgroundColor:"hwb(208 69% 7%)"}}> Go back</NavLink>
+                        <NavLink to="/" className="back_link" > Go back</NavLink>
                     </div>
                 </div>
             </section>
