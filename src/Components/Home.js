@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import Movies from './Movies'
 import Search from './Search'
-
+import Footer from "./Footer"
 
 
 function Home() {
@@ -9,7 +9,7 @@ function Home() {
     <div>
     <Search/>
     <Movies/>
-    
+    <Footer/>
     </div>
   )
 }

@@ -3,6 +3,7 @@ import { NavLink, useParams } from 'react-router-dom'
 import { useState,useEffect,useContext } from 'react'
 import { Api_Url } from './context'
 import { AppContext } from './context'
+import Button from "./Button"
 
 function Singlemovie() {
     const {id}=useParams()
@@ -44,7 +45,7 @@ function Singlemovie() {
                         <p className='card-text' style={{color:"green"}}>Type :   {movie.Genre}</p>
                         <p className='card-text' style={{color:"green"}}>Rating :   {movie.imdbRating}</p>
                         <p className='card-text' style={{color:"green"}}>Country :   {movie.Country}</p>
-                        <NavLink to="/" className="back_link" > Go back</NavLink>
+                        <Button/>
                     </div>
                 </div>
             </section>

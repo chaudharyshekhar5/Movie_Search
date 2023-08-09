@@ -20,7 +20,7 @@ function Movies() {
         const {imdbID,Poster,Title}=Curmovie;
         const Titlelen=Title.substring(0,15)
         return (
-        <NavLink to={`movies/${imdbID}`} key={imdbID}>
+        <NavLink className="a" to={`movies/${imdbID}`} key={imdbID}>
             <div className='card'>
                 <div className='card-info'>
                     <h2>
